@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+}
+body {
+    background-color: #515DEF;
+    display: flex;
+    margin: 0;
+}
+.home-page {
+    height: 783px;
+    width: 1112px;
+}
+.photo-section {
+    background-image: url(business-team.png);
+    width: 808px;
+    height: 1080px;
+    animation: my-animation 2s ease-in;
+}
+nav {
+    height: 120px;
+    padding-top: 33px;
+    padding-left: 160px;
+    width: 1112px;
+    display: flex;
+}
+.menu-a {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 56px;
+}
+.menu {
+    margin-left: calc(148px - 56px);
+    margin-top: 13px;
+}
+.photo-button {
+    height: 60px;
+    width: 149px;
+    padding: 8px;
+    background-color: #515DEF;
+    border: 1px solid #515DEF;   
+    margin-left: 499px;
+    margin-top: 33px;
+}
+.button-span {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: white;
+}
+.texts-div {
+    margin-left: 160px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.hello {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color:  white;   
+}
+.title {
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    margin-top: 16px;
+}
+.text {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+    width: 780px;
+    margin-top: 32px;
+}
+.collab-button {
+    height: 80px;
+    width: 299px;
+    margin-top: 54px;
+    border: none;
+    background-color: #FBFBFB;
+    padding: 16px;
+    -ms-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.collab-button:hover {
+    transform: scale(1.1);
+    background-color: #FAFAFA;
+}
+.collab-span {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #333333;
+}
+.button-arrow {
+    -webkit-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+.button-arrow:hover {
+    transform: rotate(-45deg);
+}
+.arrow {
+    margin-left: 8px;
+}
+.bottom-section {
+    height: 297px;
+    width: 1352px;
+    background-color: #FBFBFB;
+    position: absolute;
+    top: 783px;
+    display: flex;
+    animation: my-animation2 2s ease-in;
+}
+.scroll {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    color: rgba(144, 144, 144, 1);
+    width: 49px;
+    transform: rotate(-90deg);
+    display: inline-block;
+}    
+.scroll-div {
+    width: 40px;
+    margin-top: 40px;
+    margin-left: 60px;
+  -webkit-transition-duration: 3s;
+  -ms-transition-duration: 3s;
+  -moz-transition-duration: 3s;
+  -o-transition-duration: 3s;
+  transition-duration: 3s;
+  animation: scroll-animation 3s infinite;
+}
+@-webkit-keyframes scroll-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(64px);
+    }
+}
+@-o-keyframes scroll-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(64px);
+    }
+}
+@-moz-keyframes scroll-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(64px);
+    }
+}
+@-ms-keyframes scroll-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(64px);
+    }
+}
+@keyframes scroll-animation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(64px);
+    }
+}
+.web-span {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(51, 51, 51, 1);
+
+}
+.box1 {
+    height: 177px;
+    width: 328px;
+    margin-top: 60px;
+    margin-left: 60px;
+    position: relative;
+}
+.web-p {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #909090;
+    display: inline-block;
+    margin-top: 8px;
+}
+.box2, .box3 {
+    margin-top: 60px;
+    margin-left: 80px;
+    height: 177px;
+    width: 328px;
+}
+@-webkit-keyframes my-animation{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-left: 100px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@-webkit-keyframes my-animation2 {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-top: 100px;
+    }
+    to {
+        margin-top: 0;
+    }
+}@-o-keyframes my-animation{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-left: 100px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@-o-keyframes my-animation2 {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-top: 100px;
+    }
+    to {
+        margin-top: 0;
+    }
+}@-moz-keyframes my-animation{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-left: 100px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@-moz-keyframes my-animation2 {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-top: 100px;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+@-ms-keyframes my-animation{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-left: 100px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@-ms-keyframes my-animation2 {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-top: 100px;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+@keyframes my-animation{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-left: 100px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+@keyframes my-animation2 {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+    from {
+        margin-top: 100px;
+    }
+    to {
+        margin-top: 0;
+    }
+}
